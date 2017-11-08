@@ -18,8 +18,6 @@ class Episode { //class name
   } 
 
   int getDuration() { //permet d'additionner les durées de tous les épisodes rentrés pour avoir la durée totale
-    int dureetotale=0; //on l'initialise à 0
-    dureetotale=dureetotale+duree; // et on ajoute les durées les unes aux autres
-    return dureetotale; //et on return le résultat final
+    return duree; //et on return le résultat final
   }
 }
